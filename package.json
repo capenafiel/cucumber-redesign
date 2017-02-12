@@ -1,0 +1,27 @@
+{
+  "name": "cucumber_test_concept",
+  "version": "1.0.0",
+  "description": "cucumber test concept for Yapo.cl",
+  "main": "index.js",
+  "scripts": {
+    "tests:features": "./node_modules/.bin/cucumber-js ./tests/features",
+    "tests:feature": "./node_modules/.bin/cucumber-js",
+    "selenium:install": "./node_modules/.bin/selenium-standalone install",
+    "selenium:start": "./node_modules/.bin/selenium-standalone start"
+  },
+  "keywords": [
+    "cucumber",
+    "test",
+    "bdd",
+    "webdriverio",
+    "selenium"
+  ],
+  "author": "srh",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^2.0.0-rc.6",
+    "selenium-standalone": "^5.11.1",
+    "webdriverio": "^4.6.1"
+  }
+}
